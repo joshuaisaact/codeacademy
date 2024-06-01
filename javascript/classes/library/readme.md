@@ -8,6 +8,7 @@ But no matter, you know some JavaScript, so let’s get to work modernizing your
 Books-‘N-Stuff carries three different types of media: books, CDs, and movies. In this project you will create a parent class named Media with three subclasses: Book, Movie, and CD. These three subclasses have the following properties and methods:
 
 Book
+
 Properties: author (string), title (string), pages (number), isCheckedOut (boolean, initially false), and ratings (array, initially empty).
 Getters: all properties have a getter
 Methods: .getAverageRating(), .toggleCheckOutStatus(), and .addRating()
